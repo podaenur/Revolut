@@ -14,6 +14,8 @@
 		EA1DB5131F5A8F84009D0004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5121F5A8F84009D0004 /* Assets.xcassets */; };
 		EA1DB5161F5A8F84009D0004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5141F5A8F84009D0004 /* LaunchScreen.storyboard */; };
 		EA1DB5211F5A9094009D0004 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5201F5A9094009D0004 /* Default.xcconfig */; };
+		EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD04A7B1F5B157E00E8E59E /* RVActionView.m */; };
+		EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD04A7D1F5B158700E8E59E /* RVActionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		EA1DB5151F5A8F84009D0004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1DB5171F5A8F84009D0004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1DB5201F5A9094009D0004 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		EAD04A7A1F5B157E00E8E59E /* RVActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVActionView.h; sourceTree = "<group>"; };
+		EAD04A7B1F5B157E00E8E59E /* RVActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVActionView.m; sourceTree = "<group>"; };
+		EAD04A7D1F5B158700E8E59E /* RVActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVActionView.xib; sourceTree = "<group>"; };
 		FE9A2C3272889EF24C36FE94 /* Pods-Revolut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +91,7 @@
 				EA1DB51D1F5A9032009D0004 /* Resources */,
 				EA1DB51E1F5A903E009D0004 /* Stroyboards */,
 				EA1DB5061F5A8F84009D0004 /* Supporting Files */,
+				EAD04A791F5B154E00E8E59E /* Views */,
 			);
 			path = Revolut;
 			sourceTree = "<group>";
@@ -124,6 +130,16 @@
 				EA1DB50A1F5A8F84009D0004 /* AppDelegate.m */,
 			);
 			name = Apps;
+			sourceTree = "<group>";
+		};
+		EAD04A791F5B154E00E8E59E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAD04A7A1F5B157E00E8E59E /* RVActionView.h */,
+				EAD04A7B1F5B157E00E8E59E /* RVActionView.m */,
+				EAD04A7D1F5B158700E8E59E /* RVActionView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1DB5211F5A9094009D0004 /* Default.xcconfig in Resources */,
+				EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */,
 				EA1DB5161F5A8F84009D0004 /* LaunchScreen.storyboard in Resources */,
 				EA1DB5131F5A8F84009D0004 /* Assets.xcassets in Resources */,
 				EA1DB5111F5A8F84009D0004 /* Main.storyboard in Resources */,
@@ -252,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1DB50B1F5A8F84009D0004 /* AppDelegate.m in Sources */,
+				EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */,
 				EA1DB5081F5A8F84009D0004 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
