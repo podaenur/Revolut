@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A920E5B0BB18C55E75A4C557 /* Pods_Revolut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD462ADC9CA6F5B9315E5D2 /* Pods_Revolut.framework */; };
 		EA1DB5081F5A8F84009D0004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DB5071F5A8F84009D0004 /* main.m */; };
 		EA1DB50B1F5A8F84009D0004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DB50A1F5A8F84009D0004 /* AppDelegate.m */; };
 		EA1DB5111F5A8F84009D0004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB50F1F5A8F84009D0004 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD462ADC9CA6F5B9315E5D2 /* Pods_Revolut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Revolut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86EDE2FEF07B14FE52584DA /* Pods-Revolut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.release.xcconfig"; sourceTree = "<group>"; };
 		EA1DB5031F5A8F84009D0004 /* Revolut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revolut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1DB5071F5A8F84009D0004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA1DB5091F5A8F84009D0004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		EA1DB5151F5A8F84009D0004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1DB5171F5A8F84009D0004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1DB5201F5A9094009D0004 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		FE9A2C3272889EF24C36FE94 /* Pods-Revolut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A920E5B0BB18C55E75A4C557 /* Pods_Revolut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A658B2E7A993C9B21DFE68CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD462ADC9CA6F5B9315E5D2 /* Pods_Revolut.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C954F319987BDCA28623F159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE9A2C3272889EF24C36FE94 /* Pods-Revolut.debug.xcconfig */,
+				E86EDE2FEF07B14FE52584DA /* Pods-Revolut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA1DB4FA1F5A8F84009D0004 = {
 			isa = PBXGroup;
 			children = (
 				EA1DB5051F5A8F84009D0004 /* Revolut */,
 				EA1DB5041F5A8F84009D0004 /* Products */,
+				C954F319987BDCA28623F159 /* Pods */,
+				A658B2E7A993C9B21DFE68CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA1DB51A1F5A8F84009D0004 /* Build configuration list for PBXNativeTarget "Revolut" */;
 			buildPhases = (
+				9674D4DB6AE824DBF3D9538C /* [CP] Check Pods Manifest.lock */,
 				EA1DB4FF1F5A8F84009D0004 /* Sources */,
 				EA1DB5001F5A8F84009D0004 /* Frameworks */,
 				EA1DB5011F5A8F84009D0004 /* Resources */,
+				03EE6635FA83ED5EF2907438 /* [CP] Embed Pods Frameworks */,
+				A3A0FA18D494299FEABC5C2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +195,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03EE6635FA83ED5EF2907438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Revolut/Pods-Revolut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9674D4DB6AE824DBF3D9538C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A0FA18D494299FEABC5C2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Revolut/Pods-Revolut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA1DB4FF1F5A8F84009D0004 /* Sources */ = {
@@ -295,6 +370,7 @@
 		};
 		EA1DB51B1F5A8F84009D0004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9A2C3272889EF24C36FE94 /* Pods-Revolut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UGFFRZX2C8;
@@ -308,6 +384,7 @@
 		};
 		EA1DB51C1F5A8F84009D0004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86EDE2FEF07B14FE52584DA /* Pods-Revolut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UGFFRZX2C8;
