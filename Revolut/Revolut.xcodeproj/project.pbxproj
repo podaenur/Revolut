@@ -69,6 +69,7 @@
 				A658B2E7A993C9B21DFE68CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		EA1DB5041F5A8F84009D0004 /* Products */ = {
 			isa = PBXGroup;
@@ -154,6 +155,7 @@
 		EA1DB4FB1F5A8F84009D0004 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RV;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Evgeniy Akhmerov";
 				TargetAttributes = {
@@ -415,6 +417,7 @@
 				EA1DB51C1F5A8F84009D0004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
