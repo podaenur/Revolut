@@ -39,11 +39,11 @@ You are not obliged to reproduce the design attached, just need to make the app 
 
 ### UI Example:
 
-![](https://github.com/podaenur/Revolut/blob/master/UI_example.png)
+![](https://github.com/podaenur/Revolut/blob/master/task_resources/UI_example.png)
 
 
 ### A sample video showing app workflow:  
 
 <a href="https://www.youtube.com/watch?v=c0zPSiKYipc
-" target="_blank"><img src="https://github.com/podaenur/Revolut/blob/master/example_video_thumb.png" 
+" target="_blank"><img src="https://github.com/podaenur/Revolut/blob/master/task_resources/example_video_thumb.png" 
 width="560" height="315" border="0" /></a>
