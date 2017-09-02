@@ -1,10 +1,8 @@
 # Revolut position candidate test  
 
-Task:  
-
 Make an app that exchanges currencies using [ECB rates](http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)  
 
-Requirements:  
+#### Requirements:  
 * Use Objective-C language  
 * Exchange rates should be updating every 30 seconds  
 * 3 currencies to be exchanged: EUR, USD, GBP  
@@ -38,6 +36,7 @@ You are not obliged to reproduce the design attached, just need to make the app 
 </gesmes:Envelope>
 ```
 
+
 ### UI Example:
 
 ![](https://github.com/podaenur/Revolut/blob/master/UI_example.png)
@@ -47,8 +46,4 @@ You are not obliged to reproduce the design attached, just need to make the app 
 
 <a href="https://www.youtube.com/watch?v=c0zPSiKYipc
 " target="_blank"><img src="https://github.com/podaenur/Revolut/blob/master/example_video_thumb.png" 
-alt="IMAGE ALT TEXT HERE" width="560" height="315" border="0" /></a>
-
-<a href="https://github.com/podaenur/Revolut/blob/master/Revolut%20-%20How%20to%20Exchange%20Currencies.mp4
-" target="_blank"><img src="https://github.com/podaenur/Revolut/blob/master/example_video_thumb.png" 
-alt="IMAGE ALT TEXT HERE" width="560" height="315" border="0" /></a>
+width="560" height="315" border="0" /></a>
