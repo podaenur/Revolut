@@ -39,17 +39,14 @@
 #pragma mark - Actions
 
 - (IBAction)onTopUp:(UIButton *)sender {
-    NSLog(@"%@", [NSString stringWithCString:__FUNCTION__ encoding:NSUTF8StringEncoding]);
     [self.delegate actionViewDidPressTopUp:self];
 }
 
 - (IBAction)onExchange:(UIButton *)sender {
-    NSLog(@"%@", [NSString stringWithCString:__FUNCTION__ encoding:NSUTF8StringEncoding]);
     [self.delegate actionViewDidPressExchange:self];
 }
 
 - (IBAction)onBank:(UIButton *)sender {
-    NSLog(@"%@", [NSString stringWithCString:__FUNCTION__ encoding:NSUTF8StringEncoding]);
     [self.delegate actionViewDidPressBank:self];
 }
 
