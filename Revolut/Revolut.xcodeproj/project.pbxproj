@@ -14,6 +14,8 @@
 		EA1DB5131F5A8F84009D0004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5121F5A8F84009D0004 /* Assets.xcassets */; };
 		EA1DB5161F5A8F84009D0004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5141F5A8F84009D0004 /* LaunchScreen.storyboard */; };
 		EA1DB5211F5A9094009D0004 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5201F5A9094009D0004 /* Default.xcconfig */; };
+		EA4E50071F5C532F0091164E /* RVCurrencyView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E50061F5C532F0091164E /* RVCurrencyView.m */; };
+		EA4E50091F5C533A0091164E /* RVCurrencyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4E50081F5C533A0091164E /* RVCurrencyView.xib */; };
 		EA4E500C1F5C68960091164E /* RVCurrencyDetailLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E500B1F5C68960091164E /* RVCurrencyDetailLabel.m */; };
 		EA4E500F1F5C69250091164E /* RVCurrencyInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E500E1F5C69250091164E /* RVCurrencyInputField.m */; };
 		EA4E50121F5C696E0091164E /* RVCurrencyTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E50111F5C696E0091164E /* RVCurrencyTitleLabel.m */; };
@@ -37,6 +39,9 @@
 		EA1DB5151F5A8F84009D0004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1DB5171F5A8F84009D0004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1DB5201F5A9094009D0004 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		EA4E50051F5C532F0091164E /* RVCurrencyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrencyView.h; sourceTree = "<group>"; };
+		EA4E50061F5C532F0091164E /* RVCurrencyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrencyView.m; sourceTree = "<group>"; };
+		EA4E50081F5C533A0091164E /* RVCurrencyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVCurrencyView.xib; sourceTree = "<group>"; };
 		EA4E500A1F5C68960091164E /* RVCurrencyDetailLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrencyDetailLabel.h; sourceTree = "<group>"; };
 		EA4E500B1F5C68960091164E /* RVCurrencyDetailLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrencyDetailLabel.m; sourceTree = "<group>"; };
 		EA4E500D1F5C69250091164E /* RVCurrencyInputField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrencyInputField.h; sourceTree = "<group>"; };
@@ -165,6 +170,9 @@
 				EA4E500E1F5C69250091164E /* RVCurrencyInputField.m */,
 				EA4E50101F5C696E0091164E /* RVCurrencyTitleLabel.h */,
 				EA4E50111F5C696E0091164E /* RVCurrencyTitleLabel.m */,
+				EA4E50051F5C532F0091164E /* RVCurrencyView.h */,
+				EA4E50061F5C532F0091164E /* RVCurrencyView.m */,
+				EA4E50081F5C533A0091164E /* RVCurrencyView.xib */,
 				EABB74BF1F5BDEA6007E64BA /* RVUnderImageTitleButton.h */,
 				EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */,
 			);
@@ -250,6 +258,7 @@
 				EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */,
 				EA1DB5161F5A8F84009D0004 /* LaunchScreen.storyboard in Resources */,
 				EA1DB5131F5A8F84009D0004 /* Assets.xcassets in Resources */,
+				EA4E50091F5C533A0091164E /* RVCurrencyView.xib in Resources */,
 				EAD641761F5C1ED2007844CB /* RVExchangeController.xib in Resources */,
 				EA1DB5111F5A8F84009D0004 /* Main.storyboard in Resources */,
 			);
@@ -315,6 +324,7 @@
 				EA1DB50B1F5A8F84009D0004 /* AppDelegate.m in Sources */,
 				EA4E500F1F5C69250091164E /* RVCurrencyInputField.m in Sources */,
 				EA4E50121F5C696E0091164E /* RVCurrencyTitleLabel.m in Sources */,
+				EA4E50071F5C532F0091164E /* RVCurrencyView.m in Sources */,
 				EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */,
 				EA1DB5081F5A8F84009D0004 /* main.m in Sources */,
 				EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */,
