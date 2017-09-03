@@ -14,6 +14,7 @@
 		EA1DB5131F5A8F84009D0004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5121F5A8F84009D0004 /* Assets.xcassets */; };
 		EA1DB5161F5A8F84009D0004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5141F5A8F84009D0004 /* LaunchScreen.storyboard */; };
 		EA1DB5211F5A9094009D0004 /* Default.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB5201F5A9094009D0004 /* Default.xcconfig */; };
+		EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */; };
 		EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD04A7B1F5B157E00E8E59E /* RVActionView.m */; };
 		EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD04A7D1F5B158700E8E59E /* RVActionView.xib */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 		EA1DB5151F5A8F84009D0004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1DB5171F5A8F84009D0004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA1DB5201F5A9094009D0004 /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		EABB74BF1F5BDEA6007E64BA /* RVUnderImageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVUnderImageTitleButton.h; sourceTree = "<group>"; };
+		EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVUnderImageTitleButton.m; sourceTree = "<group>"; };
 		EAD04A7A1F5B157E00E8E59E /* RVActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVActionView.h; sourceTree = "<group>"; };
 		EAD04A7B1F5B157E00E8E59E /* RVActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVActionView.m; sourceTree = "<group>"; };
 		EAD04A7D1F5B158700E8E59E /* RVActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVActionView.xib; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				EAD04A7A1F5B157E00E8E59E /* RVActionView.h */,
 				EAD04A7B1F5B157E00E8E59E /* RVActionView.m */,
 				EAD04A7D1F5B158700E8E59E /* RVActionView.xib */,
+				EABB74BF1F5BDEA6007E64BA /* RVUnderImageTitleButton.h */,
+				EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				EA1DB50B1F5A8F84009D0004 /* AppDelegate.m in Sources */,
 				EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */,
 				EA1DB5081F5A8F84009D0004 /* main.m in Sources */,
+				EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
