@@ -18,6 +18,8 @@
 		EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD04A7B1F5B157E00E8E59E /* RVActionView.m */; };
 		EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD04A7D1F5B158700E8E59E /* RVActionView.xib */; };
 		EAD641711F5C148C007844CB /* RVAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD641701F5C148C007844CB /* RVAccountController.m */; };
+		EAD641751F5C1ED2007844CB /* RVExchangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD641731F5C1ED2007844CB /* RVExchangeController.m */; };
+		EAD641761F5C1ED2007844CB /* RVExchangeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD641741F5C1ED2007844CB /* RVExchangeController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		EAD04A7D1F5B158700E8E59E /* RVActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVActionView.xib; sourceTree = "<group>"; };
 		EAD6416F1F5C148C007844CB /* RVAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountController.h; sourceTree = "<group>"; };
 		EAD641701F5C148C007844CB /* RVAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountController.m; sourceTree = "<group>"; };
+		EAD641721F5C1ED2007844CB /* RVExchangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVExchangeController.h; sourceTree = "<group>"; };
+		EAD641731F5C1ED2007844CB /* RVExchangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVExchangeController.m; sourceTree = "<group>"; };
+		EAD641741F5C1ED2007844CB /* RVExchangeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVExchangeController.xib; sourceTree = "<group>"; };
 		FE9A2C3272889EF24C36FE94 /* Pods-Revolut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +161,9 @@
 			children = (
 				EAD6416F1F5C148C007844CB /* RVAccountController.h */,
 				EAD641701F5C148C007844CB /* RVAccountController.m */,
+				EAD641721F5C1ED2007844CB /* RVExchangeController.h */,
+				EAD641731F5C1ED2007844CB /* RVExchangeController.m */,
+				EAD641741F5C1ED2007844CB /* RVExchangeController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */,
 				EA1DB5161F5A8F84009D0004 /* LaunchScreen.storyboard in Resources */,
 				EA1DB5131F5A8F84009D0004 /* Assets.xcassets in Resources */,
+				EAD641761F5C1ED2007844CB /* RVExchangeController.xib in Resources */,
 				EA1DB5111F5A8F84009D0004 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD641751F5C1ED2007844CB /* RVExchangeController.m in Sources */,
 				EA1DB50B1F5A8F84009D0004 /* AppDelegate.m in Sources */,
 				EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */,
 				EA1DB5081F5A8F84009D0004 /* main.m in Sources */,
