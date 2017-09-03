@@ -8,10 +8,12 @@
 
 #import "RVAccountController.h"
 #import "RVActionView.h"
+#import "RVExchangeController.h"
 
 @interface RVAccountController () <RVActionViewDelegate>
 
 @property (weak, nonatomic) IBOutlet RVActionView *actionView;
+@property (nonatomic, strong) RVExchangeController *exchangeController;
 
 @end
 
@@ -26,6 +28,16 @@
 }
 
 #pragma mark - Custom Accessors
+
+- (RVExchangeController *)exchangeController {
+    if (!_exchangeController) {
+        RVExchangeController *controller = [[RVExchangeController alloc] init];
+        _exchangeController = controller;
+    }
+    
+    return _exchangeController;
+}
+
 #pragma mark - Actions
 #pragma mark - Public
 
@@ -36,6 +48,10 @@
     self.actionView.backgroundColor = [UIColor clearColor];
 }
 
+- (void)openExchangeScreen {
+    [self presentViewController:self.exchangeController animated:YES completion:nil];
+}
+
 #pragma mark - Segue
 #pragma mark - Animations
 
@@ -43,7 +59,7 @@
 #pragma mark RVActionViewDelegate
 
 - (void)actionViewDidPressExchange:(RVActionView *)view {
-    NSLog(@"Hello world");
+    [self openExchangeScreen];
 }
 
 #pragma mark - Notifications handlers
