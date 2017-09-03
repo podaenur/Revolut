@@ -53,6 +53,7 @@
 #pragma mark - Private
 
 - (void)initialSetup {
+    //TODO: extract to RVNibNamedView
     RVActionView *view = (RVActionView *)[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].firstObject;
     view.autoresizingMask = ( UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight );
     view.frame = self.bounds;

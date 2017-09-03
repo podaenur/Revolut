@@ -7,10 +7,13 @@
 //
 
 #import "RVExchangeController.h"
+#import "RVCurrencyView.h"
 
 @interface RVExchangeController ()
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
+@property (weak, nonatomic) IBOutlet RVCurrencyView *sellView;
+@property (weak, nonatomic) IBOutlet RVCurrencyView *buyView;
 
 @end
 
@@ -24,6 +27,14 @@
     [self observingShouldBeActive:YES];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    if (!self.sellView.isFirstResponder) {
+        [self.sellView becomeFirstResponder];
+    }
+}
+
 - (void)dealloc {
     [self observingShouldBeActive:NO];
 }
@@ -33,6 +44,7 @@
 #pragma mark - Actions
 
 - (IBAction)onCancel:(UIButton *)sender {
+    [self.view endEditing:YES];
     [self close];
 }
 
