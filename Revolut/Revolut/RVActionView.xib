@@ -18,7 +18,7 @@
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EdP-qc-vgY">
                     <rect key="frame" x="0.0" y="0.0" width="432" height="210"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-4m-GN6" customClass="RVUnderImageTitleButton">
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-4m-GN6" customClass="RVUnderImageTitleButton">
                             <rect key="frame" x="0.0" y="81" width="144" height="48"/>
                             <state key="normal" image="btn_add">
                                 <attributedString key="attributedTitle">
@@ -34,7 +34,7 @@
                                 <action selector="onTopUp:" destination="-1" eventType="touchUpInside" id="qi4-X7-3Eh"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VbX-hl-Llx" customClass="RVUnderImageTitleButton">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VbX-hl-Llx" customClass="RVUnderImageTitleButton">
                             <rect key="frame" x="144" y="81" width="144" height="48"/>
                             <state key="normal" image="btn_refresh">
                                 <attributedString key="attributedTitle">

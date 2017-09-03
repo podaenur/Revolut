@@ -42,7 +42,7 @@
 #pragma mark - Protocol conformance
 #pragma mark RVActionViewDelegate
 
-- (void)actionViewDidPressTopUp:(RVActionView *)view {
+- (void)actionViewDidPressExchange:(RVActionView *)view {
     NSLog(@"Hello world");
 }
 
