@@ -20,6 +20,7 @@
 		EA4E500F1F5C69250091164E /* RVCurrencyInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E500E1F5C69250091164E /* RVCurrencyInputField.m */; };
 		EA4E50121F5C696E0091164E /* RVCurrencyTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E50111F5C696E0091164E /* RVCurrencyTitleLabel.m */; };
 		EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */; };
+		EAC0FCCF1F5C907B005C5E31 /* RVCurrencyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0FCCE1F5C907B005C5E31 /* RVCurrencyModel.m */; };
 		EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD04A7B1F5B157E00E8E59E /* RVActionView.m */; };
 		EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD04A7D1F5B158700E8E59E /* RVActionView.xib */; };
 		EAD641711F5C148C007844CB /* RVAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD641701F5C148C007844CB /* RVAccountController.m */; };
@@ -50,6 +51,8 @@
 		EA4E50111F5C696E0091164E /* RVCurrencyTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrencyTitleLabel.m; sourceTree = "<group>"; };
 		EABB74BF1F5BDEA6007E64BA /* RVUnderImageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVUnderImageTitleButton.h; sourceTree = "<group>"; };
 		EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVUnderImageTitleButton.m; sourceTree = "<group>"; };
+		EAC0FCCD1F5C907B005C5E31 /* RVCurrencyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrencyModel.h; sourceTree = "<group>"; };
+		EAC0FCCE1F5C907B005C5E31 /* RVCurrencyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrencyModel.m; sourceTree = "<group>"; };
 		EAD04A7A1F5B157E00E8E59E /* RVActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVActionView.h; sourceTree = "<group>"; };
 		EAD04A7B1F5B157E00E8E59E /* RVActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVActionView.m; sourceTree = "<group>"; };
 		EAD04A7D1F5B158700E8E59E /* RVActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVActionView.xib; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 			children = (
 				EA1DB51F1F5A9055009D0004 /* Apps */,
 				EAD6416E1F5C1469007844CB /* Controllers */,
+				EAC0FCC91F5C8E91005C5E31 /* Data Managements */,
 				EA1DB51D1F5A9032009D0004 /* Resources */,
 				EA1DB51E1F5A903E009D0004 /* Stroyboards */,
 				EA1DB5061F5A8F84009D0004 /* Supporting Files */,
@@ -156,6 +160,15 @@
 				EA1DB50A1F5A8F84009D0004 /* AppDelegate.m */,
 			);
 			name = Apps;
+			sourceTree = "<group>";
+		};
+		EAC0FCC91F5C8E91005C5E31 /* Data Managements */ = {
+			isa = PBXGroup;
+			children = (
+				EAC0FCCD1F5C907B005C5E31 /* RVCurrencyModel.h */,
+				EAC0FCCE1F5C907B005C5E31 /* RVCurrencyModel.m */,
+			);
+			name = "Data Managements";
 			sourceTree = "<group>";
 		};
 		EAD04A791F5B154E00E8E59E /* Views */ = {
@@ -326,6 +339,7 @@
 				EA4E50121F5C696E0091164E /* RVCurrencyTitleLabel.m in Sources */,
 				EA4E50071F5C532F0091164E /* RVCurrencyView.m in Sources */,
 				EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */,
+				EAC0FCCF1F5C907B005C5E31 /* RVCurrencyModel.m in Sources */,
 				EA1DB5081F5A8F84009D0004 /* main.m in Sources */,
 				EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */,
 				EAD641711F5C148C007844CB /* RVAccountController.m in Sources */,
