@@ -60,7 +60,6 @@
 }
 
 - (void)close {
-    //TODO: определить как открыт контроллер
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
