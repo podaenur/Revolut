@@ -17,6 +17,7 @@
 		EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */; };
 		EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD04A7B1F5B157E00E8E59E /* RVActionView.m */; };
 		EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD04A7D1F5B158700E8E59E /* RVActionView.xib */; };
+		EAD641711F5C148C007844CB /* RVAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD641701F5C148C007844CB /* RVAccountController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		EAD04A7A1F5B157E00E8E59E /* RVActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVActionView.h; sourceTree = "<group>"; };
 		EAD04A7B1F5B157E00E8E59E /* RVActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVActionView.m; sourceTree = "<group>"; };
 		EAD04A7D1F5B158700E8E59E /* RVActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVActionView.xib; sourceTree = "<group>"; };
+		EAD6416F1F5C148C007844CB /* RVAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVAccountController.h; sourceTree = "<group>"; };
+		EAD641701F5C148C007844CB /* RVAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVAccountController.m; sourceTree = "<group>"; };
 		FE9A2C3272889EF24C36FE94 /* Pods-Revolut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revolut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Revolut/Pods-Revolut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				EA1DB51F1F5A9055009D0004 /* Apps */,
+				EAD6416E1F5C1469007844CB /* Controllers */,
 				EA1DB51D1F5A9032009D0004 /* Resources */,
 				EA1DB51E1F5A903E009D0004 /* Stroyboards */,
 				EA1DB5061F5A8F84009D0004 /* Supporting Files */,
@@ -145,6 +149,15 @@
 				EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		EAD6416E1F5C1469007844CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6416F1F5C148C007844CB /* RVAccountController.h */,
+				EAD641701F5C148C007844CB /* RVAccountController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */,
 				EA1DB5081F5A8F84009D0004 /* main.m in Sources */,
 				EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */,
+				EAD641711F5C148C007844CB /* RVAccountController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
