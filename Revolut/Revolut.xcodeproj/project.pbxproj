@@ -22,6 +22,7 @@
 		EABB74C11F5BDEA6007E64BA /* RVUnderImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB74C01F5BDEA6007E64BA /* RVUnderImageTitleButton.m */; };
 		EAC0FCCC1F5C8F2D005C5E31 /* RVFetchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0FCCB1F5C8F2D005C5E31 /* RVFetchManager.m */; };
 		EAC0FCCF1F5C907B005C5E31 /* RVCurrencyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0FCCE1F5C907B005C5E31 /* RVCurrencyModel.m */; };
+		EAC0FCD21F5C993D005C5E31 /* RVNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0FCD11F5C993D005C5E31 /* RVNetworkClient.m */; };
 		EAD04A7C1F5B157E00E8E59E /* RVActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD04A7B1F5B157E00E8E59E /* RVActionView.m */; };
 		EAD04A7E1F5B158700E8E59E /* RVActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD04A7D1F5B158700E8E59E /* RVActionView.xib */; };
 		EAD641711F5C148C007844CB /* RVAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD641701F5C148C007844CB /* RVAccountController.m */; };
@@ -56,6 +57,8 @@
 		EAC0FCCB1F5C8F2D005C5E31 /* RVFetchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVFetchManager.m; sourceTree = "<group>"; };
 		EAC0FCCD1F5C907B005C5E31 /* RVCurrencyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCurrencyModel.h; sourceTree = "<group>"; };
 		EAC0FCCE1F5C907B005C5E31 /* RVCurrencyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCurrencyModel.m; sourceTree = "<group>"; };
+		EAC0FCD01F5C993D005C5E31 /* RVNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVNetworkClient.h; sourceTree = "<group>"; };
+		EAC0FCD11F5C993D005C5E31 /* RVNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVNetworkClient.m; sourceTree = "<group>"; };
 		EAD04A7A1F5B157E00E8E59E /* RVActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVActionView.h; sourceTree = "<group>"; };
 		EAD04A7B1F5B157E00E8E59E /* RVActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVActionView.m; sourceTree = "<group>"; };
 		EAD04A7D1F5B158700E8E59E /* RVActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVActionView.xib; sourceTree = "<group>"; };
@@ -172,6 +175,8 @@
 				EAC0FCCE1F5C907B005C5E31 /* RVCurrencyModel.m */,
 				EAC0FCCA1F5C8F2D005C5E31 /* RVFetchManager.h */,
 				EAC0FCCB1F5C8F2D005C5E31 /* RVFetchManager.m */,
+				EAC0FCD01F5C993D005C5E31 /* RVNetworkClient.h */,
+				EAC0FCD11F5C993D005C5E31 /* RVNetworkClient.m */,
 			);
 			name = "Data Managements";
 			sourceTree = "<group>";
@@ -339,6 +344,7 @@
 			files = (
 				EA4E500C1F5C68960091164E /* RVCurrencyDetailLabel.m in Sources */,
 				EAD641751F5C1ED2007844CB /* RVExchangeController.m in Sources */,
+				EAC0FCD21F5C993D005C5E31 /* RVNetworkClient.m in Sources */,
 				EA1DB50B1F5A8F84009D0004 /* AppDelegate.m in Sources */,
 				EA4E500F1F5C69250091164E /* RVCurrencyInputField.m in Sources */,
 				EA4E50121F5C696E0091164E /* RVCurrencyTitleLabel.m in Sources */,
