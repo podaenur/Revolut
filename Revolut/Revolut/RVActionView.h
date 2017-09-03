@@ -12,6 +12,7 @@
 
 @protocol RVActionViewDelegate <NSObject>
 
+@optional
 - (void)actionViewDidPressTopUp:(RVActionView *)view;
 - (void)actionViewDidPressExchange:(RVActionView *)view;
 - (void)actionViewDidPressBank:(RVActionView *)view;
