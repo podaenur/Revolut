@@ -7,7 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "RVFetchManager.h"
 
 @implementation AppDelegate
+
+#pragma mark - Protocol conformance
+#pragma mark UIApplicationDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [[RVFetchManager shared] activate];
+    
+    return YES;
+}
 
 @end
